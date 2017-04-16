@@ -32,3 +32,11 @@ try:
     raise MyException
 except MyException as me:
     print(me)
+
+#finally
+try:
+    raise MyException
+except MyException as me:
+    print(me)
+finally:
+    print("Hello Finally")
